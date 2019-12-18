@@ -7,7 +7,7 @@ export class MovieService {
 
       URL:  any;
     constructor(private http: HttpClient) {
-        this.URL = 'http://localhost:8006/movie';
+        this.URL = 'http://localhost:8006/v1/movie';
      }
 
     getAll() {
